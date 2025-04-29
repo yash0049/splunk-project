@@ -1,49 +1,39 @@
-Splunk SIEM Log Analysis Projects
-This repository contains a collection of hands-on projects focused on analyzing various types of logs using Splunk SIEM. Each project provides a structured guide for uploading sample log files, performing field extraction, identifying patterns, detecting anomalies, and gaining actionable insights from different types of network and application log data.
+# Splunk SIEM Log Analysis Projects
 
-Projects Overview
-Analyzing DNS Logs Using Splunk SIEM
+This repository contains a collection of projects focused on analyzing different types of logs using Splunk SIEM.  
+Each project provides a structured guide for uploading sample log files, performing analysis, and gaining insights into specific types of log data.
 
-Step-by-step guide for uploading DNS (Domain Name System) log files.
+## Projects
 
-Extract relevant fields, analyze DNS query patterns, detect anomalies, and monitor DNS traffic activity.
+### 1. Analyzing DNS Logs
+This project provides a step-by-step guide for analyzing DNS (Domain Name System) log files using Splunk SIEM.  
+It covers uploading sample log files, extracting relevant fields, analyzing DNS query patterns, detecting anomalies, and monitoring DNS traffic.
 
-Analyzing FTP Logs Using Splunk SIEM
+### 2. Analyzing FTP Logs
+This project walks through the process of analyzing FTP (File Transfer Protocol) log files using Splunk SIEM.  
+It includes steps for uploading sample logs, extracting fields, analyzing FTP activity patterns, detecting anomalies, and monitoring FTP traffic.
 
-Walkthrough for analyzing FTP (File Transfer Protocol) log files.
+### 3. Analyzing HTTP Logs
+This project outlines how to analyze HTTP (Hypertext Transfer Protocol) log files using Splunk SIEM.  
+It covers uploading sample logs, extracting relevant fields, analyzing HTTP request patterns, detecting anomalies, and monitoring HTTP traffic.
 
-Focuses on extracting key fields, understanding FTP activity patterns, detecting unauthorized transfers, and monitoring FTP traffic trends.
+### 4. Analyzing SSH Logs
+This project provides a comprehensive guide to analyzing SSH (Secure Shell) log files using Splunk SIEM.  
+It includes steps for uploading sample logs, extracting fields, analyzing SSH activity patterns, detecting anomalies, and correlating SSH logs with other data sources.
 
-Analyzing HTTP Logs Using Splunk SIEM
+### 5. Analyzing Tunnel Logs
+This project demonstrates how to analyze tunnel log traffic (such as GRE, IPv4, and IPv6) captured by Zeek IDS using Splunk SIEM.  
+It covers uploading sample logs, performing analysis, detecting anomalies, and correlating tunnel logs with other network logs for enhanced threat detection.
 
-Process for analyzing HTTP (Hypertext Transfer Protocol) log data.
+### 6. Analyzing SMTP Logs
+This project focuses on analyzing SMTP (Simple Mail Transfer Protocol) log files using Splunk SIEM.  
+It includes uploading sample logs, extracting fields, analyzing email traffic patterns, detecting anomalies, and monitoring SMTP activity.
 
-Includes uploading sample logs, field extraction, analysis of HTTP request patterns, anomaly detection, and traffic monitoring.
+### 7. Analyzing DHCP Logs
+This project guides you through analyzing DHCP (Dynamic Host Configuration Protocol) log files using Splunk SIEM.  
+It covers uploading sample logs, extracting fields, analyzing IP address assignments, detecting anomalies, and monitoring DHCP traffic.
 
-Analyzing SSH Logs Using Splunk SIEM
+---
 
-Comprehensive guide for analyzing SSH (Secure Shell) log files.
+> **Note:** Sample log files and detailed step-by-step instructions for each project are provided within the respective project folders.
 
-Covers extraction of key information, identification of login patterns, detection of brute-force attempts, and correlation of SSH activities with other security events.
-
-Analyzing Tunnel Logs Using Splunk SIEM
-
-Techniques for analyzing tunnel traffic logs (e.g., GRE, IPv4, IPv6) captured from network monitoring tools like Zeek IDS.
-
-Includes analysis of tunnel behaviors, detection of suspicious tunneling activities, and correlation with broader network logs.
-
-Analyzing SMTP Logs Using Splunk SIEM
-
-Structured approach to analyzing SMTP (Simple Mail Transfer Protocol) logs.
-
-Focuses on email traffic analysis, anomaly detection in email behavior, and monitoring of SMTP-based communication patterns.
-
-Analyzing DHCP Logs Using Splunk SIEM
-
-Guide for analyzing DHCP (Dynamic Host Configuration Protocol) log files.
-
-Covers field extraction, analysis of IP address assignments, detection of unusual DHCP activity, and ongoing DHCP traffic monitoring.
-
-Purpose
-These projects aim to build practical skills in using Splunk for security monitoring, threat detection, and incident investigation by working with real-world types of log data.
-They are ideal for beginners looking to strengthen their SIEM and cybersecurity analysis capabilities.
